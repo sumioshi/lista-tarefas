@@ -1,0 +1,78 @@
+/* Reset de estilos padrão para garantir uma base limpa */
+body, h1, form, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#nomeTarefa {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
+
+/* Efeito hover para o botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+
+li.completed {
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 112, 112);
+    background-color: #e0e0e0;
+}
+
+mark {
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 112, 112);
+    background-color: white;
+}
